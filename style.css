@@ -182,10 +182,8 @@ body {
 {
   .container
   {
-    display: flex; 
-    justify-content: center; 
-    flex-direction: column;
-    width: 100%; 
+
+    width: 100vh; 
   }
   .form-group
   {
@@ -203,5 +201,9 @@ body {
   {
     width:auto;
     text-align: left;
+  }
+  .row
+  {
+    width: 100vh;
   }
 }

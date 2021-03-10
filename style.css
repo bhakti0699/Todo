@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 html
 {
@@ -16,6 +20,11 @@ body {
 	height: auto;
   background: #e9eaed;
   font: 14px 'Open Sans', sans-serif;
+  background-size: cover;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
 }
 .container {
   padding-top: 20px;
@@ -169,67 +178,7 @@ body {
   -webkit-animation-duration: 0.25s;
           animation-duration: 0.25s;
 }
-@media screen and (max-width:770px)
-{
-  .container
-  {
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    width: 100%; 
-    text-align: center; 
-    min-height: 100vh;
-  }
-  .form-group
-  {
-    position:relative;
-    width: 300px;
-    margin-left: -100px;
-  }
-  span.refresh
-  {
-    position: relative;
-    width: 350px;
-  }
-  .todo-list li
-  {
-    margin-left: -100px;
-    width: 300px;
-    text-align: left;
-  }
-}
-@media screen and (max-width:1100px)
-{
-  .container
-  {
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    width: 50%; 
-    text-align: center; 
-    min-height: 50vh;
-  }
-  .form-group
-  {
-    position:relative;
-    width: 300px;
-    margin-left: -150px;
-  }
-  span.refresh
-  {
-    position: relative;
-    width: 350px;
-  }
-  .todo-list li
-  {
-    margin-left: -100px;
-    width: 300px;
-    text-align: left;
-  }
-}
-@media screen and (max-width:600px)
+@media only screen and (max-width:1100px)
 {
   .container
   {
@@ -242,19 +191,18 @@ body {
   .form-group
   {
     position:relative;
-    width: 210px;
-    margin-left:-90px;
+    width: auto;
+    margin-left:-5px;
   }
   span.refresh
   {
     margin:auto auto auto auto;
     position: relative;
-    width: 250px;
+    width: auto;
   }
   .todo-list li
   {
-    margin-left: -90px;
-    width:210px;
+    width:auto;
     text-align: left;
   }
 }

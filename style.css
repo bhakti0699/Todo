@@ -209,7 +209,7 @@ body {
     flex-direction: column; 
     width: 50%; 
     text-align: center; 
-    min-height: 100vh;
+    min-height: 50vh;
   }
   .form-group
   {

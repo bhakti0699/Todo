@@ -193,7 +193,7 @@ body {
   {
     position:relative;
     width: 300px;
-    margin-left: -15rem;
+    margin-left: -20rem;
   }
   .add-control .refresh
   {
@@ -202,7 +202,7 @@ body {
     right: 0;
     font-size: 14px;
     transform: translateX(100%);
-    margin-right: -92px;
+    margin-right: -78px;
     cursor: pointer;
     color: #9da1af;
     transition: color 0.15s linear;
@@ -211,7 +211,7 @@ body {
   {
     width:300px;
     text-align: left;
-    margin-left: -15rem;
+    margin-left: -20rem;
   }
   .row
   {

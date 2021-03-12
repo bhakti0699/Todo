@@ -190,6 +190,7 @@ body {
   }
   .form-group
   {
+    margin: auto auto auto auto;
     position:relative;
     width: auto;
   }
@@ -200,6 +201,7 @@ body {
   }
   .todo-list li
   {
+    margin: auto auto auto auto;
     width:auto;
     text-align: left;
   }

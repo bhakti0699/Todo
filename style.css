@@ -186,13 +186,14 @@ body {
     align-items: center; 
     justify-content: center; 
     flex-direction: column; 
-    width: 100%;  
+    max-width: 100vh;  
+    max-height: 100vh;
   }
   .form-group
   {
-    margin: auto auto auto auto;
     position:relative;
     width: auto;
+    margin-left:-35px ;
   }
   span.refresh
   {
@@ -202,8 +203,9 @@ body {
   .todo-list li
   {
     margin: auto auto auto auto;
-    width:auto;
+    width:310px;
     text-align: left;
+    margin-left: -35px;
   }
   .row
   {

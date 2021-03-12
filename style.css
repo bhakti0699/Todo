@@ -164,7 +164,7 @@ body {
 }
 .separator {
   margin: 15px auto;
-  width: 50%;
+  width: 80%;
   height: 1px;
   border-bottom: 1px dashed #abafba;
 }
@@ -182,18 +182,19 @@ body {
 {
   .container
   {
-
+    display: flex; 
+    
+    justify-content: center; 
+    flex-direction: column; 
     width: 100vh; 
   }
   .form-group
   {
     position:relative;
     width: auto;
-    margin-left:-5px;
   }
   span.refresh
   {
-    margin:auto auto auto auto;
     position: relative;
     width: auto;
   }

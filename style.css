@@ -191,7 +191,7 @@ body {
   .form-group
   {
     position:relative;
-    width: 400px;
+    width: 390px;
     margin-left: -60px;
   }
   span.refresh.text-muted
@@ -202,7 +202,7 @@ body {
   }
   .todo-list li
   {
-    width: 400px;
+    width: 390px;
     text-align: left;
     margin-left: -65px;
   }

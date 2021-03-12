@@ -192,23 +192,29 @@ body {
   .form-group
   {
     position:relative;
-    width: auto;
-    margin-left:-35px ;
+    width: 300px;
+    margin-left: -15rem;
   }
-  span.refresh
+  .add-control .refresh
   {
-    position: relative;
-    width: auto;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    font-size: 14px;
+    transform: translateX(100%);
+    margin-right: -92px;
+    cursor: pointer;
+    color: #9da1af;
+    transition: color 0.15s linear;
   }
-  .todo-list li
+  li
   {
-    margin: auto auto auto auto;
-    width:310px;
+    width:300px;
     text-align: left;
-    margin-left: -35px;
+    margin-left: -15rem;
   }
   .row
   {
-    width: 100vh;
+    width: auto;
   }
 }
